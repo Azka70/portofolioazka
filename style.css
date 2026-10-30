@@ -103,7 +103,7 @@ h2{font:800 clamp(2rem,4vw,3rem)/1.1 var(--display);letter-spacing:-.02em;margin
 .soft strong,.soft span{display:block}.soft span{color:var(--muted);font-size:.93rem;line-height:1.5}
 
 /* Achievement: hanya satu kartu */
-.ach{display:grid;grid-template-columns:1.2fr .8fr;gap:2rem;padding:2.5rem;border-radius:24px;position:relative;overflow:hidden;color:#fff;
+.ach{display:block;padding:2.5rem;border-radius:24px;position:relative;overflow:hidden;color:#fff;
   background:radial-gradient(500px 300px at 0 0,rgba(47,107,255,.55),transparent 70%),#0a1740;border:1px solid rgba(122,162,255,.35);
   transition:transform .35s var(--ease),box-shadow .35s}
 .ach:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px var(--accent)}
@@ -112,9 +112,6 @@ h2{font:800 clamp(2rem,4vw,3rem)/1.1 var(--display);letter-spacing:-.02em;margin
 .ach h3{font:700 clamp(1.3rem,2.6vw,1.8rem) var(--display);margin-bottom:.8rem}
 .meta{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;margin-bottom:1rem;color:#c9d6ff}.meta b{color:#fff;margin-right:.3rem}
 .ach p:last-child{color:#c9d6ff;max-width:34rem}
-.proof{display:grid;place-items:center;text-align:center;min-height:220px;border:2px dashed rgba(138,173,255,.5);border-radius:16px;color:#c9d6ff;position:relative;overflow:hidden;margin:0;padding:1rem}
-.proof img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.proof:has(img) figcaption{display:none}
 
 /* Contact */
 .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:2.5rem;align-items:start}
